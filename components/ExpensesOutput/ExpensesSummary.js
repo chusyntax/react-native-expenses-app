@@ -8,6 +8,7 @@ function ExpensesSummary({ periodName, expenses }) {
   return (
     <View>
       <Text>{periodName}</Text>
+      <Text>Total expenses:</Text>
       <Text>${totalExpenses.toFixed(2)}</Text>
     </View>
   );
